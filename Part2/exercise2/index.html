@@ -1,0 +1,49 @@
+<html>
+   <head>
+       <title>Exercise2</title>
+          <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+   </head>
+   <body>
+    <h1 style="text-align:center;">Insert data of a cyclist!</h1>
+   </br>
+   <form action="process.php" method="GET">
+
+    <p style="text-align:center;">Cyclist Code</p>
+    <input type='text' style="display:block; margin : 0 auto;" maxlenth="15" name="CodC">
+
+    
+    <p style="text-align:center;">Name</p>
+    <input type='text' style="display:block; margin : 0 auto;" maxlenth="15" name="Name">
+
+    
+    <p style="text-align:center;">Surname</p>
+    <input type='text' style="display:block; margin : 0 auto;" maxlenth="15" name="Surname">
+
+    
+    <p style="text-align:center;">Year Born</p>
+    <input type='text' style="display:block; margin : 0 auto;" maxlenth="15" name="BirthYear">
+
+    
+    <p style="text-align:center;">Nationality</p>
+    <input type='text' style="display:block; margin : 0 auto;" maxlenth="15" name="Nationality">
+
+    <p style="text-align:center;">Team Number</p>
+
+    
+    <select style="display:block; margin : 0 auto;" maxlenth="15" name="CodT">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="4">5</option>
+    </select>
+</br>
+<input class="btn btn-primary" type="submit" style="display:block; margin : 0 auto;" value="Send" />
+</br>
+<input class="btn" type="reset" style="display:block; margin : 0 auto;" value="Cancel" />
+
+   </form>
+   </body>
+</html>
