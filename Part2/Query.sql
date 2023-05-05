@@ -60,18 +60,18 @@ START TRANSACTION;
 
 
 INSERT INTO Cyclist (CodC, Name, Surname, Nationality, CodT, BirthYear)
-VALUES ('15122','Ioannis','Pontikopoulos','Greek','123','1999');
+VALUES ('15122','Ioannis','Pontix','Greek','123','1999');
 
 INSERT INTO Team (CodT,NameT,FoundationYear,LegalAddress)
 VALUES('123','pao','1908','Athens');
 
 INSERT INTO Individual_classification (CodC, CodS, Edition, Ranking)
-VALUES ('15122','1','1','2');
+VALUES ('16199','1','1','2');
 
 
 
 INSERT INTO Cyclist (CodC, Name, Surname, Nationality, CodT, BirthYear)
-VALUES ('7456','nikos','pontikopoulos','greek','444','2000');
+VALUES ('7456','nikos','papado','greek','444','2000');
 
 INSERT INTO Team (CodT,NameT,FoundationYear,LegalAddress)
 VALUES('444','marousi','2005','amarousion');
